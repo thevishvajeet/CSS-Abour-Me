@@ -1,0 +1,220 @@
+body{
+  text-align: center;
+}
+h2{
+  font-family: 'Merriweather', serif;
+  color: #66BFBF;
+
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color:  #66BFBF;
+}
+h3{
+  color: #11999E;
+}
+p{
+  color: #40514E;
+
+
+}
+.copyright{
+  color: #EAF6F6;
+}
+.Entrepreneur{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.profile-div{
+  margin: 0px auto 300px auto;
+    width: 50%;
+}
+.skill-row{
+margin: 100px auto 300px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.contact-me{
+  margin: 0px auto 0px auto;
+    width: 50%;
+    padding-bottom: 250px;
+    padding-top: 250px;
+
+}
+.bottom-container{
+  margin: 0px auto 0px auto;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  background-color: #66BFBF;
+
+}
+hr{
+  color: #EAF6F6;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 5px;
+  width: 10%;
+
+}
+
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+
+}
+
+a:hover{
+  color: #EAF6F6 ;
+}
+
+.footer-link{
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+.top-container{
+  padding: 100px;
+  background: #EAF6F6;
+  position: relative;
+  line-height: 2;
+}
+.profile{
+  margin-top: 150px;
+  border-radius: 50%;
+}
+
+.vlog{
+  width: 25%;
+  height: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.web{
+  border-radius: 100%;
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+.middle-container{
+background-color: #d1eecc;
+
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 50px;
+  top: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+
+.btn {
+
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Merriweather', serif;
+  color: #eeeeee;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+.btn:hover {
+  background: #55BFBF;
+  background-image: -webkit-linear-gradient(top, #55BFBF, #55BFBF);
+  background-image: -moz-linear-gradient(top, #55BFBF, #55BFBF);
+  background-image: -ms-linear-gradient(top, #55BFBF, #55BFBF);
+  background-image: -o-linear-gradient(top, #55BFBF, #55BFBF);
+  background-image: linear-gradient(to bottom, #55BFBF, #55BFBF);
+  text-decoration: none;
+}
+/*
+
+$$$$$$$$ use clear propert if u want to save some of you content getting wrapped around, antifloat basically
+only use it when really necessary $$$$$$$$$$$$$
+
+font size
+@@@@@@@@@100% in font size is 16px@@@@@@@@@@@@@@
+use <em>to italasize</em>
+also to keep the font size dynamic use em or percentage mostly website use em check out techcruch
+1em = 16px
+em font size inherited if body is 2 and h1 5 it will be actually 10 same with percentage type
+
+rem ignores the parent settings
+
+
+
+
+block elements they take the whole width of the web page
+1.paragraphs
+2.headers
+3.divisions
+4.lists and lists items
+5. forms
+
+use span to solve this issue while having different parts of text differenmylu styled
+
+inline elements ----->
+1. span
+2. iamges
+3. anchors(<a></a>)
+
+span(
+1. you can use them as standalones
+2. cant change their width and all
+)
+
+you can make block elements display value as inline and vice versa
+
+
+there is a third type inline-block display type
+
+4th is display none
+
+display
+1. block
+2. inline
+3. inline-block
+4. none
+5. hidden
+
+
+block
+1. content is everything
+2. order comes from the code
+3. children sits on the parents
+
+
+************POSITION PROPERTY*********
+1.static
+2.relative
+coordinates top bottom left right
+3.
+4.
+
+*/
